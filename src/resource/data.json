@@ -1,0 +1,150 @@
+[
+  {
+    "permissionKey": "setting",
+    "permissionName": "การตั้งค่าข้อมูล",
+    "subtree": [
+      {
+        "permissionKey": "setting:form",
+        "permissionName": "แบบฟอร์มเอกสาร",
+        "subtree": [
+          {
+            "permissionKey": "setting:form:view",
+            "permissionName": "ดูรายการข้อมูลแบบฟอร์มเอกสาร"
+          },
+          {
+            "permissionKey": "setting:form:edit",
+            "permissionName": "แก้ไขข้อมูลแบบฟอร์มเอกสาร"
+          },
+          {
+            "permissionKey": "setting:form:action_publish",
+            "permissionName": "เผยแพร่เอกสาร (Publish)"
+          },
+          {
+            "permissionKey": "setting:form:action_close",
+            "permissionName": "ยกเลิกเอกสาร (Close)"
+          },
+          {
+            "permissionKey": "setting:form:action_draft",
+            "permissionName": "บันทึกแบบร่างเอกสาร (Draft)"
+          }
+        ]
+      },
+      {
+        "permissionKey": "setting:attach",
+        "permissionName": "เอกสารแนบ",
+        "subtree": [
+          {
+            "permissionKey": "setting:attach:view",
+            "permissionName": "ดูรายการข้อมูลเอกสารแนบ"
+          },
+          {
+            "permissionKey": "setting:attach:create",
+            "permissionName": "เพิ่มข้อมูลเอกสารแนบ"
+          },
+          {
+            "permissionKey": "setting:attach:edit",
+            "permissionName": "แก้ไขรายการข้อมูลเอกสารแนบ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "permissionKey": "user",
+    "permissionName": "การตั้งค่าสิทธิ์การเข้าถึง",
+    "subtree": [
+      {
+        "permissionKey": "user:role",
+        "permissionName": "บทบาท (Roles)",
+        "subtree": [
+          {
+            "permissionKey": "user:role:view",
+            "permissionName": "ดูข้อมูลบทบาท"
+          },
+          {
+            "permissionKey": "user:role:edit",
+            "permissionName": "แก้ไขรายละเอียดบทบาท"
+          }
+        ]
+      },
+      {
+        "permissionKey": "user:agent",
+        "permissionName": "ผู้ใช้งาน (Agents)",
+        "subtree": [
+          {
+            "permissionKey": "user:agent:view",
+            "permissionName": "ดูรายละเอียดข้อมูลโปรไฟล์"
+          },
+          {
+            "permissionKey": "user:agent:permission",
+            "permissionName": "กำหนดสิทธิ์ (บทบาท)"
+          }
+        ]
+      },
+      {
+        "permissionKey": "user:admin",
+        "permissionName": "ผู้ดูแล (Admins)",
+        "subtree": [
+          {
+            "permissionKey": "user:admin:view",
+            "permissionName": "ดูรายละเอียดข้อมูลโปรไฟล์"
+          },
+          {
+            "permissionKey": "user:admin:create",
+            "permissionName": "เพิ่มสิทธิ์"
+          },
+          {
+            "permissionKey": "user:admin:edit",
+            "permissionName": "แก้ไขสิทธิ์"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "permissionKey": "document",
+    "permissionName": "บันทึกข้อมูลประเภทเอกสาร",
+    "subtree": [
+      {
+        "permissionKey": "document:regis",
+        "permissionName": "ขอสอบใบอนุญาตตัวแทน"
+      },
+      {
+        "permissionKey": "document:renewal",
+        "permissionName": "ขอต่อใบอนุญาตตัวแทน"
+      },
+      {
+        "permissionKey": "document:executives",
+        "permissionName": "ขอแต่งตั้งผู้บริหาร"
+      },
+      {
+        "permissionKey": "document:replacement",
+        "permissionName": "ขอรับใบอนุญาตตัวแทน"
+      },
+      {
+        "permissionKey": "document:receive",
+        "permissionName": "ขอใบแทนใบอนุญาต"
+      },
+      {
+        "permissionKey": "document:ojt",
+        "permissionName": "ขอทำสัญญาตัวแทนฝึกหัด (OJT)"
+      },
+      {
+        "permissionKey": "document:regisIlp",
+        "permissionName": "ขอขึ้นทะเบียน ILP"
+      },
+      {
+        "permissionKey": "document:renew-ILP",
+        "permissionName": "ขอต่อทะเบียน ILP"
+      },
+      {
+        "permissionKey": "document:juristic",
+        "permissionName": "ขอจัดทำสัญญาว่าจ้างนิติบุคคล"
+      },
+      {
+        "permissionKey": "document:sales",
+        "permissionName": "เปลี่ยนแปลงผู้ค้ำประกันสัญญาฝ่ายขาย"
+      }
+    ]
+  }
+]
